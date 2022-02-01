@@ -6,9 +6,9 @@ function MyApp({ Component, pageProps }) {
   return (
     // <ThemeProvider>
     
-    <Layout>
+    // <Layout>
       <Component {...pageProps} />
-    </Layout>
+    // {/* </Layout> */}
     // </ThemeProvider>
   );
 }
