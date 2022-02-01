@@ -16,7 +16,10 @@ export default function Banner() {
   return (
     <div
       style={{
-        height: "100vh",
+        height: "80vh",
+        maxHeight:'90vh',
+        marginTop:'32px'
+
       }}
     >
       <Swiper
