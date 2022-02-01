@@ -66,7 +66,7 @@ export default function TheBand() {
               }} />
             </Item>
           </Grid>
-          <Grid item sx={12} md={3} lg={4}>
+          <Grid item xs={12} md={3} lg={4}>
           <Item>
               <p>Name</p>
               <img src="/bandmember.jpg" alt="" style={{
@@ -76,7 +76,7 @@ export default function TheBand() {
               }} />
             </Item>
           </Grid>
-          <Grid item sx={12} md={3} lg={4}>
+          <Grid item xs={12} md={3} lg={4}>
           <Item>
               <p>Name</p>
               <img src="/bandmember.jpg" alt="" style={{
