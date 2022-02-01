@@ -1,6 +1,7 @@
 import { Search } from "@mui/icons-material";
 import { MenuItem } from "@mui/material";
 import Box from "@mui/material/Box";
+import DropMenu from "./DropMenu"
 
 export default function Nav() {
   return (
@@ -11,6 +12,9 @@ export default function Nav() {
         background: "black",
         color: "white",
         display: "flex",
+        position:'fixed',
+        top:0,
+        zIndex:'100',
       }}
     >
       <MenuItem
@@ -71,6 +75,12 @@ export default function Nav() {
         }}
       >
         CONTACT
+      </MenuItem>
+
+      <MenuItem
+        
+      >
+        <DropMenu />
       </MenuItem>
 
       <Box
