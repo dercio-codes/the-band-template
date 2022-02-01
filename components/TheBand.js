@@ -22,6 +22,8 @@ export default function TheBand() {
         flexDirection: "column",
         alignItems: "center",
         justifyContent: "center",
+        marginTop:'90px'
+
       }}
     >
       <Box sx={{
@@ -54,7 +56,7 @@ export default function TheBand() {
           consequat.
         </Typography>
         <Grid container spacing={2} >
-          <Grid item sx={12} lg={4}>
+          <Grid item sx={12} md={3} lg={4}>
             <Item>
               <p>Name</p>
               <img src="/bandmember.jpg" alt="" style={{
@@ -64,7 +66,7 @@ export default function TheBand() {
               }} />
             </Item>
           </Grid>
-          <Grid item sx={12} lg={4}>
+          <Grid item sx={12} md={3} lg={4}>
           <Item>
               <p>Name</p>
               <img src="/bandmember.jpg" alt="" style={{
@@ -74,7 +76,7 @@ export default function TheBand() {
               }} />
             </Item>
           </Grid>
-          <Grid item sx={12} lg={4}>
+          <Grid item sx={12} md={3} lg={4}>
           <Item>
               <p>Name</p>
               <img src="/bandmember.jpg" alt="" style={{

@@ -1,6 +1,7 @@
 import TheBand from "../components/TheBand";
 import Nav from "../components/Navbar/Nav";
 import Banner from "../components/Banner";
+import Contact from "../components/Contact";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Nav />
       <Banner />
       <TheBand />
+      <Contact />
     </div>
   );
 }
