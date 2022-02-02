@@ -4,6 +4,7 @@ import Banner from "../components/Banner";
 import Contact from "../components/Contact";
 import TourDates from "../components/TourDates";
 import Map from "../components/Map";
+import Footer from "../components/Footer";
 
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <TourDates />
       <Contact />
       <Map />
+      <Footer />
     </div>
   );
 }
