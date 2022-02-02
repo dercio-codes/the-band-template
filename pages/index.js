@@ -3,6 +3,7 @@ import Nav from "../components/Navbar/Nav";
 import Banner from "../components/Banner";
 import Contact from "../components/Contact";
 import TourDates from "../components/TourDates";
+import Map from "../components/Map";
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <TheBand />
       <TourDates />
       <Contact />
+      <Map />
     </div>
   );
 }
