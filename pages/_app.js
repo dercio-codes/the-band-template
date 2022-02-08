@@ -4,12 +4,12 @@ import { ThemeProvider } from "@emotion/styled";
 
 function MyApp({ Component, pageProps }) {
   return (
-    // <ThemeProvider>
+    <ThemeProvider>
     
     // <Layout>
       <Component {...pageProps} />
     // {/* </Layout> */}
-    // </ThemeProvider>
+    </ThemeProvider>
   );
 }
 
