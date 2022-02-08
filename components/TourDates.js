@@ -158,6 +158,7 @@ const TourDates = () => {
                 }}
               >
                 <img
+                  alt=""
                   src="https://www.w3schools.com/w3images/newyork.jpg"
                   style={{
                     width: "100%",
@@ -205,7 +206,8 @@ const TourDates = () => {
                   // border:"1px red solid"
                 }}
               >
-                <img
+                <img 
+                  alt=""
                   src="https://www.w3schools.com/w3images/paris.jpg"
                   style={{
                     width: "100%",
@@ -255,6 +257,7 @@ const TourDates = () => {
                 }}
               >
                 <img
+                  alt=""
                   src="https://www.w3schools.com/w3images/sanfran.jpg"
                   style={{
                     width: "100%",
